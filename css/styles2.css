@@ -1,0 +1,93 @@
+html {
+box-sizing: border-box;
+font-size: 62.5%;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+}
+
+/*Utilidades*/
+
+.centrar-texto {
+    text-align: center;
+}
+
+.contenedor {
+    margin: 0 auto;
+    max-width: 120rem;
+    width: 95%;
+}
+
+/*Estilos globales*/
+
+h1, h2 {
+    color: #99B2DD;
+    font-weight: 700;
+}
+
+h2 {
+    text-align: left!important;
+}
+
+
+/*Botones*/
+
+.btn {
+    padding: 5px 50px;
+    display: inline-block;
+    background-color: #B3DEE2;
+    border-radius: 5px;
+    border: none;
+    color: #E27396;
+    border: 1px solid #E27396;
+    font-weight: bold;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #EAF2D7;
+    border: 1px solid #E27396;
+}
+
+/*estilos*/
+
+.principal {
+    display: flex;
+    justify-content: center;
+}
+
+.calculadora {
+    border: 2px solid steelblue;
+    padding: 15px;
+    
+}
+
+.campos input {
+    border-radius: 10px;
+    padding: 5px 5px;
+    border: 1px solid #E27396;
+    margin-top: 5px;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.botones button {
+    flex-basis: calc(50% - 5px);
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.campos label {
+    display: block;
+}

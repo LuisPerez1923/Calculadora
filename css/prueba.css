@@ -1,0 +1,36 @@
+img{
+    max-width: 100%;
+}
+
+/*utilidad*/
+
+.contenedor {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/*estilos*/
+.contenedor-cartas {
+    display: flex;
+    justify-content: space-between; /*separar elementos*/
+    
+}
+
+.carta {
+    flex-basis: calc(33.3% - 10px); /*dar ancho a elementos*/
+    background: rgb(231, 231, 231);
+    border: 1px solid rgb(175, 174, 174);
+    
+}
+
+.contenido-carta {
+    padding: 20px;
+}
+
+.precio {
+    color: green;
+}
+
+/*
+const precios = document.querySelectorAll(".carta p");
+*/

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Estilos-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilosOscar.css">
+     <!--Fuentes Google fonts-->
+     <link rel="preconnect" href="
+https://fonts.gstatic.com
+">
+     <link href="
+https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto&display=swap
+" rel="stylesheet">
+    <title>Calculadora JS</title>
+</head>
+<body>
+    <header class="encabezado">
+        <h1>calculadoraPro1.5 </h1> 
+    </header>
+    <div class="operaciones">
+
+        <div class="suma contenedor">
+            <h2>Suma</h2>
+            <div class="entradas">
+                <label for="sumaElemento1">Primer operando</label>
+                <input type="number" id="sumaElemento1">
+                <br>
+                <label for="sumaElemento2">Primer operando</label>
+                <input type="number" id="sumaElemento2">
+            </div>
+            <div class="boton">
+                <button id="btnSuma">Realizar operación</button>
+            </div>
+            <div class="resultadoSuma">
+                <p>El resultado de la suma es: </p>
+            </div>
+        </div>
+        
+        <hr>
+        <div class="resta contenedor">
+            <h2>Resta</h2>
+            <div class="entradas">
+                <label for="restaElemento1">Primer operando</label>
+                <input type="number" id="restaElemento1">
+                <br>
+                <label for="restaElemento2">Primer operando</label>
+                <input type="number" id="restaElemento2">
+            </div>
+            <div class="boton">
+                <button id="btnResta">Realizar operación</button>
+            </div>
+            <div class="resultadoResta">
+                <p>El resultado de la resta es: </p>
+            </div>
+        </div>
+        <hr>
+        <div class="multiplicacion contenedor">
+            <h2>Multiplicación</h2>
+            <div class="entradas">
+                <label for="multiElemento1">Primer operando</label>
+                <input type="number" id="multiElemento1">
+                <br>
+                <label for="multiElemento2">Primer operando</label>
+                <input type="number" id="multiElemento2">
+            </div>
+            <div class="boton">
+                <button id="btnMulti">Realizar operación</button>
+            </div>
+            <div class="resultadoMulti">
+                <p>El resultado de la multiplicación es: </p>
+            </div>
+        </div>
+        <hr>
+        <div class="division contenedor">
+            <h2>División</h2>
+            <div class="entradas">
+                <label for="divElemento1">Dividendo</label>
+                <input type="number" id="divElemento1">
+                <br>
+                <label for="divElemento2">Divisor</label>
+                <input type="number" id="divElemento2">
+            </div> 
+            <div class="boton">
+                <button id="btnDiv">Realizar operación</button>
+            </div>
+            <div class="resultadoDiv">
+                <p>El resultado de la división es: </p>
+            </div>
+        </div>
+        <hr>
+        <div class="potencia contenedor">
+            <h2>Potencia</h2>
+            <div class="entradas">
+                <label for="powElemento1">base</label>
+                <input type="number" id="powElemento1">
+                <br>
+                <label for="powElemento2">exponente</label>
+                <input type="number" id="powElemento2">
+            </div> 
+            <div class="boton">
+                <button id="btnPow">Realizar operación</button>
+            </div>
+            <div class="resultadoPow contenedor">
+                <p>El resultado de la potencia es: </p>
+            </div>
+        </div>
+    </div>
+    <script src="js/calculadoraOscar.js"></script>
+</body>
+</html>

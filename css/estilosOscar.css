@@ -1,0 +1,94 @@
+/*Selectores globales*/
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+    /*font-sise: 62.5%; hcace que un rem =10px*/
+    font-size: 62.5%;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  /*Fuentes*/
+  /* font-family: 'Lato', sans-serif; 
+  font-family: 'Roboto', sans-serif;
+  */
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem; /*La medida estándar de las letras es de 16px*/
+    line-height: 2; /*Separación entre lineas*/
+}
+h1{
+    font-family: 'Lato', sans-serif;
+}
+h2, h3, h4, h5{
+    font-family: 'Lato', sans-serif;
+}
+h1{
+    font-size: 4.8rem;
+}
+h2{
+    font-size: 4rem;
+}
+h3{
+    font-size: 3.2rem;
+}
+h4{
+    font-size: 2.8rem;
+}
+img{
+    max-width: 100%;    
+}
+/*************Utilidades***********/
+.centrar-texo{
+    text-align: center;
+}
+.no-margin{
+    margin: 0;
+}
+.contenedor{
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+
+}
+.contenedor-columnas{
+    width: 95%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+/*Body*/
+body{
+    background-color: rgb(197, 198, 199);
+}
+/*Header*/
+.encabezado{
+    background-color: rgb(221, 214, 220);
+    margin:0 auto;
+    display: block;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(51, 51, 50);
+}
+.encabezado h1{
+    margin: 0;
+}
+
+.operaciones{
+    text-align: center;
+    align-items: center;    
+}
+.boton{
+    transition: 0.3s ease-in-out;
+}
+
+.boton button{
+    transition: all 0.3s ease-in-out;
+
+}
+
+
+.boton button:hover{ 
+    color: rgb(172, 228, 68);
+    cursor: pointer;
+    font-size: 2rem;
+}
